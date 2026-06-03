@@ -110,8 +110,8 @@ Desktop.ini
 .env.test.local
 .env.production.local
 *.env
-*.env.example
-!*.env.example # Permitir subir o arquivo de exemplo se houver
+# Permitir subir o arquivo de exemplo se houver
+!*.env.example
 
 # AI Agents & IDE metadata
 .agents/
